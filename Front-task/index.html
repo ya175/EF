@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Html Form Example</h1>
+
+    <p>
+      this is an example of an <s>HTML4</s> <ins>HTML5</ins> form containing
+      <pdi>يحتوي </pdi> various <mark>input</mark> controls
+    </p>
+
+    <form action="">
+      <fieldset>
+        <legend>user information</legend>
+        <label for="username">Username : </label>
+        <input type="text" name="username" /><br /><br />
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" /><br /><br />
+
+        <label for="password">Password : </label>
+        <input type="password" name="=password" /><br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Contact information</legend>
+        <label for="phone">Phone : </label>
+        <input type="tel" name="phone" /><br /><br />
+        <label for="message">Message : </label><br />
+        <textarea name="message" id="" cols="100" rows="5"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>subscription</legend>
+        <label for="subscription1">subscription to new letters : </label>
+        <input type="checkbox" name="subscription1" value="subscription1" />
+
+        <br />
+        <label for="subscription2">subscription to new letters : </label>
+        <input type="checkbox" name="subscription2" value="subscription2" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Prefered Language</legend>
+
+        <label for="langs">Select your prefered Language:</label>
+        <select name="langs">
+          <option value="English">English</option>
+          <option value="Spanish">Spanish</option>
+          <option value="Frensh">Frensh</option>
+          <option value="German">German</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Feedback</legend>
+        <label for="range">Rate our services :</label>
+        <input type="range" name="range" id="" />
+      </fieldset>
+
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
